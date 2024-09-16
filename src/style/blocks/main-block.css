@@ -1,0 +1,28 @@
+.main-block {
+  padding-top: 35px;
+}
+
+.main-block__program {
+  margin-top: var(--section-margin-top);
+}
+
+.main-block__blog {
+  margin-top: var(--section-margin-top);
+}
+
+.main-block__swiper {
+  background-image: url(../../image/bg-card-blog.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  height: 500px;
+  box-sizing: border-box;
+  padding: 15px 15px 0 15px;
+}
+@media screen and (min-width: 1000px) {
+  .main-block__swiper {
+    height: 612px;
+    padding-inline: auto;
+    padding-top: 108px;
+  }
+}

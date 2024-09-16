@@ -1,0 +1,28 @@
+@import './blocks/container.css';
+@import  './blocks/variables.css';
+@import './blocks/header.css';
+@import './blocks/aside.css';
+@import './blocks/nav.css';
+@import './blocks/main-block.css';
+@import './blocks/top.css';
+@import './blocks/form.css';
+@import './blocks/program.css';
+@import  './blocks/card.css';
+@import './blocks/blog.css';
+@import  './blocks/modal.css';
+@import  './blocks/card-blog.css';
+@import  './blocks/swiper.css';
+@import './blocks/footer.css';
+
+
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+}

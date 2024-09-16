@@ -1,0 +1,12 @@
+.container {
+  min-width: 430px;
+  padding-inline: 37px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    padding-inline: 59px;    
+  }
+}

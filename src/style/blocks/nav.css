@@ -1,0 +1,21 @@
+.nav {}
+
+.nav__list {
+  padding: 0;
+  margin: 0;
+}
+.nav__item {
+  list-style: none;
+  gap: 32px;
+  margin-top: 32px;
+  
+}
+
+.nav__link {
+  text-decoration: none;
+  position: relative;
+
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--main-color);
+}

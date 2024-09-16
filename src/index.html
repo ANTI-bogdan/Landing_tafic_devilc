@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Trafic Devils</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="./image/logo.svg" alt="logo" class="header__logo--image" />
+      </a>
+      <div class="header__list">
+        <a href="#" class="header__link">Informazioni</a>
+        <a href="#" class="header__link">CEO</a>
+        <a href="#" class="header__link">Iniziare a guadagnare subito </a>
+      </div>
+
+      <div class="heade__menu">
+        <a href="#menu" class="header__icon-menu"></a>
+      </div>
+    </header>
+    <aside class="aside" id="menu">
+      <div class="aside__top-bar">
+        <img src="./image/logo.svg" alt="logo" />
+        <a href="#" class="aside__icon--close"></a>
+      </div>
+      <div class="container">
+        <nav class="aside__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Informazioni</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">CEO</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Iniziare a guadagnare subito </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <main class="main-block">
+      <section class="main-block__top top">
+        <div class="container">
+          <div class="top__block--mobile"></div>
+
+          <div class="top-wrapper">
+            <p class="top__text--top">
+              Investire 250 euro per raggiungere 5000 euro in una settimana vi
+              sembra impossibile? Con il Gruppo Generali potete fare ancora di
+              più!
+            </p>
+            <div class="top__block-form-wrapper">
+              <form class="top__form form" id="form-registrate">
+                <div class="form__input-wraper">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form__input"
+                    placeholder="il suo nome"
+                  />
+                  <input
+                    type="text"
+                    name="second-name"
+                    class="form__input"
+                    placeholder="il suo cog"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    class="form__input"
+                    placeholder="e-mail"
+                  />
+                  <input
+                    id="phone"
+                    type="tel"
+                    name="phone"
+                    class="form__input"
+                  />
+
+                  <input
+                    type="submit"
+                    class="form__button"
+                    value="registrati"
+                  />
+                </div>
+
+                <div
+                  class="form__alert form__alert-info"
+                  style="display: none"
+                ></div>
+                <div
+                  class="form__alert form__alert-error"
+                  style="display: none"
+                ></div>
+              </form>
+            </div>
+          </div>
+
+          <div class="top__botom-wrapper">
+            <div class="top__block--descktop"></div>
+
+          <div class="top__text--botom">
+            <p class="top__text--title">IL NOSTRO SCOPO</p>
+            <p class="top__text--blue-text">
+              Siamo qui per promuovere lo sviluppo e la circolazione delle
+              persone, delle imprese e del Paese.
+            </p>
+          </div>
+          </div>
+          
+        </div>
+      </section>
+      <section class="main-block__program program">
+        <div class="container">
+          <p class="program__title">Inizia a servire con noi</p>
+          <div class="program__cards-wrapper">
+            <div class="program__card card">
+              <img src="./image/doc.svg" alt="documantation" class="card__img" />
+              <p class="card__title">Registrazione</p>
+              <p class="card__text">
+                Compilare tutti i campi del modulo di registrazione sul sito web.
+              </p>
+              <button class="card__button">INIZIARE</button>
+            </div>
+            <div class="program__card card">
+              <img
+                src="./image/detective.svg"
+                alt="detective"
+                class="card__img"
+              />
+              <p class="card__title">Consultazione di esperti</p>
+              <p class="card__text">
+                Dopo la registrazione, rispondere all'invito del Consulente di
+                supporto di Petrol Energia e seguire tutte le sue istruzioni.
+              </p>
+              <button class="card__button">INIZIARE</button>
+            </div>
+            <div class="program__card card">
+              <img src="./image/tree.svg" alt="tree" class="card__img" />
+              <p class="card__title">Deposito</p>
+              <p class="card__text">
+                Dopo la verifica, è necessario depositare un minimo di 250 euro
+                sul conto dell'azionista.
+              </p>
+              <button class="card__button">INIZIARE</button>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section class="main-block__blog blog">
+        <div class="container">
+          <img src="./image/man-sit.png" alt="man" class="blog__img" />
+          <div class="blog__text-block">
+            <p class="blog__text">
+              Philippe Donnet, amministratore delegato di Generali, ha appena
+              festeggiato dieci anni in Italia e in un&apos;intervista a
+              “Repubblica” spiega che bilancio trae dal nostro Paese: “In questi
+              dieci anni il mondo ha dovuto fare i conti con prove molto dure e
+              questo ci ha resi più capaci di gestire l&apos;imprevedibile.
+              L&apos;Italia ha resistito bene. Per quanto mi riguarda, tre anni
+              fa sono diventato cittadino italiano: perché ci tenevo a rimarcare
+              un&apos;adesione forte ai valori e alla cultura di questo Paese”.
+              Un&apos;altra prova per l&apos;economia è stato il repentino
+              rialzo dei tassi: “A mio parere è improprio parlare oggi di tassi
+              alti: quando ero teenager, i mutui viaggiavano a due cifre
+              percentuali. La vera anomalia è stata vivere con tassi a zero per
+              quindici anni. Oggi siamo in una situazione normale. Per quel che
+              riguarda il nostro gruppo, abbiamo un business mix grazie al quale
+              possiamo crescere in qualsiasi ciclo economico”. La crescita
+              dell&apos;Italia è stimata attorno allo 0,7 per cento: “Noi non
+              avremo problemi ma per la crescita si può fare meglio, in Italia e
+              in Europa. Ritengo che in Europa non ci sia abbastanza Europa, ma
+              troppe tasse e troppe norme, che si sovrappongono a quelle
+              nazionali. Questo non aiuta né le famiglie né le imprese: quindi
+              abbassiamo le tasse, riduciamo le norme e liberiamo le energie
+              imprenditoriali”.
+            </p>
+          </div>
+          <div class="blog__title">Potencijal dobiti</div>
+
+          <div class="blog__modal modal">
+            <div class="modal__bar">
+              <form class="modal__bar-form">
+                <input
+                  type="text"
+                  class="modal__bar--mons"
+                  name="range"
+                  value=""
+                />
+                <input
+                  type="text"
+                  class="modal__bar--money"
+                  name="range"
+                  value=""
+                />
+
+                <button class="modal__bar--button">MOGUĆA DOBIT: € 8600</button>
+              </form>
+            </div>
+            <div class="modal__calculat">
+              <p class="modal__calculat--title">UKUPNA DOBIT KORISNIKA:</p>
+              <p class="modal__calculat--sum">€ 128 567 000</p>
+              <p class="modal__calculat--title">AKTIVNI KORISNICI:</p>
+              <p class="modal__calculat--sum">77 335</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-block__swiper">
+        <div class="container">
+          <div class="swiper">
+            <div class="swiper__ wrapper swiper-wrapper">
+              <div class="swiper__card-blog card-blog swiper-slide">
+                <div class="card-blog__top">
+                  <img
+                    src="./image/foto/jeff-b.png"
+                    alt="Jeff Bezos"
+                    class="card-blog__icon"
+                  />
+                  <div class="card-blog__top--text">
+                    <p class="card-blog__top--top-text">Jeff Bezos:</p>
+                    <p class="card-blog__top--botoom-text">
+                      Technologieunternehmer, Investor und Philanthrop
+                    </p>
+                    <img
+                      src="./image/icons/logos_facebook.svg"
+                      alt="logos_facebook"
+                      class="card-blog__top--logo"
+                    />
+                  </div>
+                </div>
+                <p class="card-blog__text">
+                  Dem Quantencomputing gehört die Zukunft. Ich übertreibe nicht,
+                  wenn ich sage, es wird alles verändern wird. Das
+                  Quantencomputing steht noch ganz am Anfang; nicht viele
+                  Menschen wissen davon, was bedeutet, dass nur sehr wenige es
+                  nutzen. Die wenigen, die es nutzen, treffen unglaublich kluge
+                  (und profitable) Entscheidungen.
+                </p>
+              </div>
+              <div class="swiper__card-blog card-blog swiper-slide">
+                <div class="card-blog__top">
+                  <img
+                    src="./image/foto/bill-gats.png"
+                    alt="Bill Gates:"
+                    class="card-blog__icon"
+                  />
+                  <div class="card-blog__top--text">
+                    <p class="card-blog__top--top-text">Bill Gates:</p>
+                    <p class="card-blog__top--botoom-text">
+                      Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                      Menschenfreund
+                    </p>
+                    <img
+                      src="./image/icons/logos_facebook.svg"
+                      alt="logos_facebook"
+                      class="card-blog__top--logo"
+                    />
+                  </div>
+                </div>
+                <p class="card-blog__text">
+                  Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von
+                  seinem eigenen Geld ausgegeben hat, um dieses Programm zu
+                  finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar von
+                  seinem eigenen Geld, um eine bessere Zukunft für alle zu
+                  finanzieren und um anderen zu helfen Gewinne zu machen, die
+                  ihm dabei helfen werden! Das ist eine Win-Win-Situation, und
+                  ich bin sehr gespannt zu sehen, wohin das führen wird.
+                </p>
+              </div>
+              <div class="swiper__card-blog card-blog swiper-slide">
+                <div class="card-blog__top">
+                  <img
+                    src="./image/foto/bill-gats-fake.png"
+                    alt="Bill Gates:"
+                    class="card-blog__icon"
+                  />
+                  <div class="card-blog__top--text">
+                    <p class="card-blog__top--top-text">Bill Gates:</p>
+                    <p class="card-blog__top--botoom-text">
+                      Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                      Menschenfreund
+                    </p>
+                    <img
+                      src="./image/icons/logos_facebook.svg"
+                      alt="logos_facebook"
+                      class="card-blog__top--logo"
+                    />
+                  </div>
+                </div>
+                <p class="card-blog__text">
+                  Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von
+                  seinem eigenen Geld ausgegeben hat, um dieses Programm zu
+                  finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar von
+                  seinem eigenen Geld, um eine bessere Zukunft für alle zu
+                  finanzieren und um anderen zu helfen Gewinne zu machen, die
+                  ihm dabei helfen werden! Das ist eine Win-Win-Situation, und
+                  ich bin sehr gespannt zu sehen, wohin das führen wird.
+                </p>
+              </div>
+              <div class="swiper__card-blog card-blog swiper-slide">
+                <div class="card-blog__top">
+                  <img
+                    src="./image/foto/suit.png"
+                    alt="Bill Gates:"
+                    class="card-blog__icon"
+                  />
+                  <div class="card-blog__top--text">
+                    <p class="card-blog__top--top-text">Bill Gates:</p>
+                    <p class="card-blog__top--botoom-text">
+                      Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                      Menschenfreund
+                    </p>
+                    <img
+                      src="./image/icons/logos_facebook.svg"
+                      alt="logos_facebook"
+                      class="card-blog__top--logo"
+                    />
+                  </div>
+                </div>
+                <p class="card-blog__text">
+                  Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von
+                  seinem eigenen Geld ausgegeben hat, um dieses Programm zu
+                  finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar von
+                  seinem eigenen Geld, um eine bessere Zukunft für alle zu
+                  finanzieren und um anderen zu helfen Gewinne zu machen, die
+                  ihm dabei helfen werden! Das ist eine Win-Win-Situation, und
+                  ich bin sehr gespannt zu sehen, wohin das führen wird.
+                </p>
+              </div>
+              <div class="swiper__card-blog card-blog swiper-slide">
+                <div class="card-blog__top">
+                  <img
+                    src="./image/foto/scarf.png"
+                    alt="Bill Gates:"
+                    class="card-blog__icon"
+                  />
+                  <div class="card-blog__top--text">
+                    <p class="card-blog__top--top-text">Bill Gates:</p>
+                    <p class="card-blog__top--botoom-text">
+                      Wirtschaftsmagnat, Investor, Autor, Philanthrop und
+                      Menschenfreund
+                    </p>
+                    <img
+                      src="./image/icons/logos_facebook.svg"
+                      alt="logos_facebook"
+                      class="card-blog__top--logo"
+                    />
+                  </div>
+                </div>
+                <p class="card-blog__text">
+                  Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von
+                  seinem eigenen Geld ausgegeben hat, um dieses Programm zu
+                  finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar von
+                  seinem eigenen Geld, um eine bessere Zukunft für alle zu
+                  finanzieren und um anderen zu helfen Gewinne zu machen, die
+                  ihm dabei helfen werden! Das ist eine Win-Win-Situation, und
+                  ich bin sehr gespannt zu sehen, wohin das führen wird.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__title">Gli azionisti dell'azienda</div>
+        <div class="footer__logos">
+          <img
+            src="./image/footer-images/mediobanca.svg"
+            alt="mediobanca"
+            class="footer__logo"
+          />
+          <img
+            src="./image/footer-images/UniCredit.svg"
+            alt="UniCredit"
+            class="footer__logo"
+          />
+          <img
+            src="./image/footer-images/banks-italia.svg"
+            alt="banks-italia"
+            class="footer__logo"
+          />
+          <img
+            src="./image/footer-images/b-d_holdings.svg"
+            alt=""
+            class="footer__logo"
+          />
+          <img
+            src="./image/footer-images/carlo.svg"
+            alt="carlo"
+            class="footer__logo"
+          />
+          <img
+            src="./image/logo.svg"
+            alt="logo"
+            class="footer__logo footer__logo--main"
+          />
+        </div>
+        <div class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item-list">
+              <a href="#" class="footer__link">Mappa del sito</a>
+            </li>
+            <li class="footer__item-list">
+              <a href="#" class="footer__link">Termini di utilizzo</a>
+            </li>
+            <li class="footer__item-list">
+              <a href="#" class="footer__link">Avviso di accessibilità</a>
+            </li>
+            <li class="footer__item-list">
+              <a href="#" class="footer__link">Gestione dei Cookie</a>
+            </li>
+            <li class="footer__item-list">
+              <a href="#" class="footer__link"
+                >Politica sulla protezione dei dati e informativa sulla
+                privacy</a
+              >
+            </li>
+            <li class="footer__item-list">
+              <a href="#" class="footer__link"
+                >Avviso di frode Web e phishing</a
+              >
+            </li>
+            <li class="footer__item-list">
+              <a href="#" class="footer__link"
+                >Politica sui reclami &#150; Australia</a
+              >
+            </li>
+          </ul>
+        </div>
+        <img src="./image/logo.svg" alt="logo" class="footer__main-logo" />
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script type="text/javascript" src="./scripts/phoneInput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script>
+      const monsRange = $(".modal__bar--mons").ionRangeSlider({
+        skin: "round",
+        type: "single",
+        values: [
+          "1 month",
+          "2 month",
+          "3 month",
+          "4 month",
+          "5 month",
+          "6 month",
+          "7 month",
+          "8 month",
+          "9 month",
+          "10 month",
+          "11 month",
+          "12 month",
+        ],
+        min: 0,
+        max: 12,
+        from: 0,
+        grid: true,
+        grid_num: 1,
+      });
+
+      const moneyRange = $(".modal__bar--money").ionRangeSlider({
+        skin: "round",
+        type: "single",
+        min: 300,
+        max: 15000,
+        from: 2000,
+        grid: true,
+        postfix: "€",
+        step: 25,
+      });
+
+      const button = document.querySelector(".modal__bar--button");
+
+      function calculate() {
+        const $inpMonth = $(monsRange);
+        const $inpMoney = $(moneyRange);
+        const month = parseInt($inpMonth.prop("value"));
+        const money = $inpMoney.prop("value");
+        const sum = Math.round(month * +money * 4.3);
+
+        button.textContent = `MOGUĆA DOBIT: €${sum}`;
+      }
+
+      monsRange.on("change", calculate);
+
+      moneyRange.on("change", calculate);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module">
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: 1,
+        speed: 500,
+        spaceBetween: 10,
+        autoplay: {
+          delay: 5000,
+        },
+      });
+    </script>
+  </body>
+</html>

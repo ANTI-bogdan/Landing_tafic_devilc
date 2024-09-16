@@ -1,0 +1,11 @@
+.swiper__wrapper {
+  height: 362px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .swiper {
+    width: 750px;
+    height: 362px;
+  }
+}

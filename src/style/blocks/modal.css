@@ -1,0 +1,132 @@
+.modal__bar {
+  width: 410px;
+  height: 248px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: auto;
+  background: linear-gradient(#a31401, var(--dark-red));
+}
+
+.modal__bar--mons {
+  margin-top: 104px;
+  color: #fff;
+}
+.modal__bar--money {
+  color: #fff;
+}
+
+.irs--round .irs-bar {
+  background-color: var(--main-color);
+}
+
+.irs--round .irs-handle {
+  border-color: var(--main-color) !important;
+}
+.irs-single {
+  background-color: var(--main-color) !important;
+}
+.irs--round .irs-from:before,
+.irs--round .irs-to:before,
+.irs--round .irs-single:before {
+  border-color: var(--main-color) !important;
+}
+
+.irs {
+  font-family: inherit;
+  color: #c0c0c0;
+}
+
+.irs-max .irs-min {
+  font-family: inherit;
+}
+
+.modal__bar-form {
+  background-color: #fff;
+  border-radius: 20px;
+
+  width: 390px;
+  height: 220px;
+  box-sizing: border-box;
+  padding: 35px 20px 15px;
+}
+
+.modal__bar--button {
+  display: block;
+  width: 280px;
+  height: 30px;
+  margin: auto;
+  margin-top: 15px;
+  background: linear-gradient(to right, var(--main-color), var(--dark-red));
+  outline: none;
+  border: none;
+  border-radius: 38px;
+  color: #fff;
+}
+
+.modal__calculat {
+  margin-top: 42px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__calculat--title {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+}
+
+.modal__calculat--sum {
+  font-family: "Montserrat";
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 56px;
+  text-align: center;
+
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1000px) {
+  .modal {
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal__bar {
+    width: 690px;
+    height: 400px;
+    padding: 0;
+    margin: 0 0 50px -30px;
+    background-color: none;
+  }
+
+  .modal__bar-form {
+    width: 690px;
+    height: 400px;
+    padding: 107px 26px 10px;
+    margin: auto;
+  }
+
+  .modal__bar--button {
+    width: 500px;
+    height: 76px;
+    margin-top: 50px;
+    font-size: 35px;
+    line-height: 32px;
+  }
+
+  .modal__calculat {
+    align-items: flex-start;
+  }
+
+  .modal__calculat--title {
+    text-align: left;
+  }
+
+  .modal__calculat--sum {
+    text-align: left;
+  }
+}
